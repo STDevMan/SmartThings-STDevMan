@@ -83,16 +83,16 @@ metadata {
 		}
 		
 		standardTile("doubleUp", "device.button", width: 3, height: 2, decoration: "flat") {
-			state "default", label: "Tap ▲▲", backgroundColor: "#ffffff", action: "doubleUp", icon: "https://raw.githubusercontent.com/STDevMan/SmartThings/master/icons/SwitchOnIcon.png"
+			state "default", label: "Tap ▲▲", backgroundColor: "#ffffff", action: "doubleUp", icon: "https://raw.githubusercontent.com/STDevMan/SmartThings-STDevMan/master/icons/SwitchOnIcon.png"
 		}     
  
         standardTile("doubleDown", "device.button", width: 3, height: 2, decoration: "flat") {
-			state "default", label: "Tap ▼▼", backgroundColor: "#ffffff", action: "doubleDown", icon: "https://raw.githubusercontent.com/STDevMan/SmartThings/master/icons/SwitchOffIcon.png"
+			state "default", label: "Tap ▼▼", backgroundColor: "#ffffff", action: "doubleDown", icon: "https://raw.githubusercontent.com/STDevMan/SmartThings-STDevMan/master/icons/SwitchOffIcon.png"
 		}
 		
 		standardTile("inverted", "device.inverted", width: 2, height: 2, inactiveLabel: false, decoration: "flat") {
-			state "not inverted", label: "Not Inverted", action:"inverted", icon:"https://raw.githubusercontent.com/STDevMan/SmartThings/master/icons/SwitchNotInverted.png", backgroundColor: "#ffffff"
-			state "inverted", label: "Inverted", action:"notInverted", icon:"https://raw.githubusercontent.com/STDevMan/SmartThings/master/icons/SwitchInverted.png", backgroundColor: "#ffffff"
+			state "not inverted", label: "Not Inverted", action:"inverted", icon:"https://raw.githubusercontent.com/STDevMan/SmartThings-STDevMan/master/icons/SwitchNotInverted.png", backgroundColor: "#ffffff"
+			state "inverted", label: "Inverted", action:"notInverted", icon:"https://raw.githubusercontent.com/STDevMan/SmartThings-STDevMan/master/icons/SwitchInverted.png", backgroundColor: "#ffffff"
 		}
 		controlTile("levelSliderControl", "device.level", "slider", width: 2, height: 2, inactiveLabel: false) {
 			state "level", action:"switch level.setLevel"
